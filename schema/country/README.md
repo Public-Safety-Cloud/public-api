@@ -20,16 +20,11 @@ id     | String     | CountryId contains the `country_` prefix and a uuid
 name | String | Name of the Country, based on the provided language
 isoCode | String | 3-Character isoCode, based on https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
 
-### Get all Countries
-
-`GET https://<domain>/<version>/countries`
-**Domain:** Our Endpoint Domain. Depends on the used environment.  
-**Version:** The API Version you want to use.  
-**Language:** You can specify the language with an url parameter like
-this: `GET https://<domain>/<version>/countries?lang=de` We are using the ISO 639-1 Language Code
-
-#### Example Response
-
+### `GET` `/countries` Get all Countries
+Get all Countries, our system knows.
+#### Request
+*No request payload*
+#### Response
 ```json
 {
   "version": "draft",
