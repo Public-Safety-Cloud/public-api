@@ -7,13 +7,10 @@ Our country endpoint will provide the countries, our system knows. Customers can
 Our country object contains the following fields:
 
 ```json
-Country {
+{
   "id": "country_5dde5671-8326-4a9f-b9db-e4bad898f088",
-  // the id of the country, starting with the country_ prefix
   "name": "Germany",
-  // the name of the country, based on provided language
   "isoCode": "DEU"
-  // The isoCode of the Country
 }
 ```
 
