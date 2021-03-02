@@ -2,7 +2,8 @@
 
 We offer a public API to everyone. This API requires a bearer authentication token, which can be created in our customer
 portal (https://portal.public-safety.cloud).  
-**Our API is currently a DRAFT**
+
+## Current Version - FRAFT
 
 ### Contribute
 
@@ -19,3 +20,7 @@ We will provide our API as an REST-API which only understands JSON, no XML ;)
 
 ## GRAPHQL-API
 We will offer our API as GRAPHQL too, but only in a later release.
+
+### Table of Contents
+- Schema
+    - [Country](/schema/country/README.md)
