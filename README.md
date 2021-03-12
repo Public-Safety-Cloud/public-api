@@ -3,7 +3,7 @@
 We offer a public API to everyone. This API requires a bearer authentication token, which can be created in our customer
 portal (https://portal.public-safety.cloud).
 
-## Current Version - FRAFT
+## Current Version - DRAFT
 
 ### Contribute
 
