@@ -1,0 +1,11 @@
+{
+  "name": "public-safety-cloud-public-api-schema",
+  "version": "0.0.1",
+  "description": "Public-Safety.Cloud Public API schema definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirch Solutions GmbH",
+  "license": "MIT"
+}

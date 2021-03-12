@@ -43,6 +43,30 @@ Available languages:
 - German: `de`
 - English `en`
 
+#### Api Response Structure
+
+All API responses following the same structure:
+
+```json
+{
+  "version": "draft",
+  "lang": "en",
+  "livemode": false,
+  "type": "list",
+  "items": [],
+  "data": {}
+}
+```
+
+| Field | Type | Comment |
+| --- | --- | --- |
+| version | string | The version of the response |
+| lang | string | The language of the response |
+| livemode | boolean | if the response is in livemode or not |
+| type | Enumeration | the response type. Possible values: `list`, `object` |
+| items | JSON-Array | if type is `list`, this field will be used |
+| data | JSON-Object | if type is `object`, this field will be used | 
+
 ## GRAPHQL-API
 
 We will offer our API as GRAPHQL too, but only in a later release.
@@ -50,4 +74,6 @@ We will offer our API as GRAPHQL too, but only in a later release.
 ### Table of Contents
 
 - Schema
-    - [Country](/schema/country/README.md)
+    - [Country](/schema-description/country/README.md)
+    - [Customer](/schema-description/customer/README.md)
+    - [Unit](/schema-description/unit/README.md)

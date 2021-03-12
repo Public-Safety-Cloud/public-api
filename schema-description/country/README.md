@@ -25,11 +25,13 @@ Get all Countries, our system knows.
 #### Request
 *No request payload*
 #### Response
+
 ```json
 {
   "version": "draft",
   "lang": "en",
   "livemode": false,
+  "type": "list",
   "items": [
     {
       "id": "country_5dde5671-8326-4a9f-b9db-e4bad898f088",
