@@ -1,0 +1,6 @@
+export enum LiquidTankType {
+    EXTINGUISHING_WATER = 'EXTINGUISHING_WATER',
+    FOAMING_AGENT = 'FOAMING_AGENT',
+    PETROL = 'PETROL',
+    DIESEL = 'DIESEL'
+}

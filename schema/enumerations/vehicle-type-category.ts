@@ -1,0 +1,5 @@
+export enum VehicleTypeCategory {
+    FIRE_TRUCK = 'FIRE_TRUCK',
+    AMBULANCE = 'AMBULANCE',
+    TECHNISCHES_HILFSWERK = 'TECHNISCHES_HILFSWERK'
+}

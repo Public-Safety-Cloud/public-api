@@ -11,7 +11,7 @@ Our vehicle-type object contains the following fields:
 {
   "id": "vehicletype_5dde5671-8326-4a9f-b9db-e4bad898f088",
   "name": "HLF 20",
-  "category": "FIRE_TRUCK",
+  "category": VehicleTypeCategory,
   "country": Country
 }
 ```
@@ -20,7 +20,7 @@ column | dataType | description
 --- | ------------- | -------------
 id     | String     | UnitId contains the `vehicletype_` prefix and a uuid
 name | String | Name of the unit
-category | Enumeration | The category of the vehicle. Possible values: `FIRE_TRUCK`, `AMBULANCE`, `TECHNISCHES_HILFSWERK`
+category | VehicleTypeCategory | The category of the vehicle. Possible values: `FIRE_TRUCK`, `AMBULANCE`, `TECHNISCHES_HILFSWERK`
 country | Country | The country of the vehicle-type
 
 ### `GET` `/vehicle-types` Get all Vehicle-Types

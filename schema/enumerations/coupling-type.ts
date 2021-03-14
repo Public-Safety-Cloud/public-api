@@ -1,0 +1,9 @@
+export enum CouplingType {
+    DIN_14323_A = 'DIN_14323_A',
+    DIN_14303_B = 'DIN_14303_B',
+    DIN_14302_C52 = 'DIN_14302_C52',
+    DIN_14332_C42 = 'DIN_14332_C42',
+    DIN_14330_1_S32 = 'DIN_14330_1_S32',
+    DIN_14330_2_S28 = 'DIN_14330_2_S28',
+    DIN_14301_D = 'DIN_14301_D',
+}
