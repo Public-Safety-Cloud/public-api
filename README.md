@@ -77,3 +77,6 @@ We will offer our API as GRAPHQL too, but only in a later release.
     - [Country](/schema-description/country/README.md)
     - [Customer](/schema-description/customer/README.md)
     - [Unit](/schema-description/unit/README.md)
+    - [VehicleType](/schema-description/vehicle-type/README.md)
+    - [Vehicle](/schema-description/vehicle/README.md)
+    - [Enumerations](/schema-description/enumerations/README.md)
