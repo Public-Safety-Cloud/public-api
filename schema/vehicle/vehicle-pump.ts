@@ -1,9 +1,11 @@
 import {VehiclePumpInput} from "./vehicle-pump-input";
 import {VehiclePumpOutput} from "./vehicle-pump-output";
-import {PumpDriveType} from "../enumerations/pump-drive-type";
+import {DriveType} from "../enumerations/drive-type";
 
 export interface VehiclePump {
-    driveType: PumpDriveType;
+    name: string;
+    driveType: DriveType;
+    electricalPowerConsumptionInKilowattPerHour?: number;
     portable: boolean;
     explosionProof: boolean;
     deliveryRateLiterPerMinute: number;

@@ -14,18 +14,20 @@ Our vehicle object contains the following fields:
   "unit": Unit,
   "weightCategory": VehicleWeightCategory,
   "offRoadCapability": VehicleOffRoadCapability,
-  "liquidTanks": VehicleLiquidTank[],
+  "liquidTanks": LiquidTank[],
   "pumps": VehiclePump[],
+  "equipment": Equipment[]
 }
 ```
 
 column | dataType | description
 --- | ------------- | -------------
 id     | String     | VehicleId contains the `vehicle_` prefix and a uuid
-vehicleType | VehicleType | The type of the vehicle
+vehicleType | VehicleType | The type of the vehicle. See [VehicleType Definition](../enumerations/README.md)
 radioCallName | string | Radio call name of the vehicle
 unit | Unit | Unit of the vehicle, if present
-weightCategory | VehicleWeightCategory | weight category of the vehicle. Possible values: `LIGHT`, `MEDIUM`, `HEAVY`. See DIN EN 1846-1
-offRoadCapability | VehicleOffRoadCapability | Off-road mobility of the vehicle. Possible values: `ROAD`, `OFF_ROAD`, `ALL_TERRAIN`. See DIN EN 1846-1
-liquidTanks | List of VehicleLiquidTank | All liquids the vehicle carries
+weightCategory | VehicleWeightCategory | weight category of the vehicle, based on DIN EN 1846-1. See [VehicleWeightCategory Definition](../enumerations/README.md)
+offRoadCapability | VehicleOffRoadCapability | Off-road mobility of the vehicle, based on DIN EN 1846-1. See [VehicleOffRoadCapability Definition](../enumerations/README.md)
+liquidTanks | List of LiquidTank | All liquids the vehicle carries.
 pumps | List of VehiclePump | All pumps the vehicle carries (including built-in pumps)
+equipment | List of Equipment | All equipment the vehicle carries.

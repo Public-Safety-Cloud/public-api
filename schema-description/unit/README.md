@@ -18,7 +18,7 @@ column | dataType | description
 --- | ------------- | -------------
 id     | String     | UnitId contains the `unit_` prefix and a uuid
 name | String | Name of the unit
-type | UnitType | The type of the unit. Possible values: `FIRE_STATION`
+type | UnitType | The type of the unit. See [UnitType Definition](../enumerations/README.md)
 
 ### `GET` `/unit/:unitId` Get Unit by id
 

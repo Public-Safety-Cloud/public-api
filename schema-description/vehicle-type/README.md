@@ -20,7 +20,7 @@ column | dataType | description
 --- | ------------- | -------------
 id     | String     | UnitId contains the `vehicletype_` prefix and a uuid
 name | String | Name of the unit
-category | VehicleTypeCategory | The category of the vehicle. Possible values: `FIRE_TRUCK`, `AMBULANCE`, `TECHNISCHES_HILFSWERK`
+category | VehicleTypeCategory | The category of the vehicle. See [VehicleTypeCategory Definition](../enumerations/README.md)
 country | Country | The country of the vehicle-type
 
 ### `GET` `/vehicle-types` Get all Vehicle-Types
